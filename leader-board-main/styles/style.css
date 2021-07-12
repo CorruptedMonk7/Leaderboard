@@ -241,5 +241,8 @@ a{
     .duration{
         margin-right: 20px;
     } 
+    .toptitle{
+        padding-left: 10px;
+    }
 }
 
