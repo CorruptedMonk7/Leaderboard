@@ -1,0 +1,234 @@
+/* fontsstyle */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+/* nav  */
+nav{
+    background-color: #562EFF;
+    Width:100%;
+    Height:94px;
+    color:white; 
+    display: flex; 
+    justify-content: space-around;
+    align-items: center;
+    text-decoration: none;  
+    /* position: fixed;  */
+}
+.articleclass:hover .imgsec3article img{
+    transform: scale(1.3) ;
+    transition: transform 2s linear;  
+    
+}
+.imgsec3article{
+    overflow: hidden; 
+}
+.players:hover  .imgclass img{
+    transform: scale(1.3) ;
+    transition: transform 2s linear;  
+    
+}
+/* .imgsec3article{
+    overflow: hidden; 
+} */
+a{
+    color: white;
+    margin-right: 60px;
+    font-size: 16px;
+
+}
+/* .ideapad{
+    padding-top: 33px;
+    padding-bottom: 25px;
+    padding-left: 285px;
+    margin: 0;
+} */
+/* .nav2{
+    paddin
+
+} */
+.ideabulb{
+    padding-right: 30px;
+    font-size: 40px;
+    transform: rotate(-45deg);
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #F3F1FF;
+}
+.topplayers{
+    background-color: #FFFFFF;
+    width: 870px;
+    height: 679px;
+    padding: 30px;
+    margin-top: 21px;
+    border-radius: 5px;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+}
+.toptitle{
+    color: #562EFF;
+    font-size: 24px;
+    margin-top: 3px;
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap:30px;
+    margin:21px;
+}
+hr{
+    border: 1px solid #D1D1D1;
+    margin-bottom: 22px;
+}
+.player img{
+    width: 56px;
+    height:56px;
+}
+.player-pad{
+    padding-left: 16px;
+    font-size: 18px;
+}
+.player{
+    display: flex;
+    align-items: center;
+}
+/* new division */
+.allarticle{
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap:26px;
+}
+.article{
+    display: flex;
+}
+.article .articleimg img{
+    width: 177px;
+    height: 117px;
+}
+.articledetails{
+    margin-left: 16px;
+}
+.blogtitle{
+    font-size: 20px;
+}
+.author{
+    font-size: 16px;
+    color: #9F9F9F;
+}
+a{
+    text-decoration: none;
+}
+/* new course section  */
+.bottomsec{
+    width: 870px;
+    height: 362px;
+    background-color: #FFFFFF;
+    padding: 30px;
+    margin-top: 21px;
+    border-radius: 5px;
+}
+.allarticle2{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap:23.61px;
+}
+.articleclass{
+    Width :224.42px;
+    Height:269.79px;
+    padding-left: 11px;
+    padding-right: 17px;
+    padding-bottom: 16.03px;
+    box-shadow: 0px 5.34229px 13.3557px rgba(0, 0, 0, 0.061);
+    text-align: left;
+    border-radius: 5px;
+
+}
+
+.articleclass .imgsec3article img{
+    width: 224px;
+    height: 104px;
+}
+
+.courseinfo{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.author2{
+    color:#ED6B4F;
+    font-size: 14.69px;
+    margin:0;
+}
+.fa-star{
+    Width:12.25px;
+    Height:11.75px;
+}
+.fa-star.fillcolor{
+    color:#FFC014;
+}
+.fa-star.trans{
+    color:#AEAEAE;
+    opacity: 0.25;
+}
+.duration{
+    background-color:#FFE4E8;
+    border-radius: 14.5px;
+    color:#FF4A60
+    
+}
+.duration p{
+    margin: 0;
+    padding:4px;
+}
+.coursename{
+    font-size: 20.03px;
+    margin-top:19.23px;
+    margin-bottom: 7.07px;
+}
+.articledetails2{
+    margin-left: 0px;
+}
+/* mobile */
+@media  only screen and (max-width:688px) {
+    .players, .allarticle, .allarticle2 {
+        grid-template-columns: repeat(1,1fr);
+        
+         
+    }
+    
+    .player, .article, .articleclass{
+        flex-direction: column;
+        align-items: center;
+    }
+    .topplayers, .articleclass, .bottomsec{
+        width:100%;
+        height: 100%;
+    }
+    .coursename{
+        margin:0;
+    }
+    .articleclass{
+        padding:0;
+    }
+    .imgsec3article{
+        margin-top: 5px;  
+        padding-top: 5px;
+        text-align: center;
+          }
+    .courseinfo{
+        padding-bottom: 10px;
+    }
+    .ideapad, {
+        margin: 10px;
+        
+    }
+     a{
+        margin: 0;
+    }
+
+    
+}
+
