@@ -194,8 +194,7 @@ a{
 /* mobile */
 @media  only screen and (max-width:688px) {
     .players, .allarticle, .allarticle2 {
-        grid-template-columns: repeat(1,1fr);
-        
+        grid-template-columns: repeat(1,1fr);    
          
     }
     
@@ -217,7 +216,7 @@ a{
         margin-top: 5px;  
         padding-top: 5px;
         text-align: center;
-          }
+        }
     .courseinfo{
         padding-bottom: 10px;
     }
@@ -227,6 +226,10 @@ a{
     }
      a{
         margin: 0;
+    }
+    .topplayers, .bottomsec{
+        padding-right: 0;
+        padding-left: 0;
     }
 
     
