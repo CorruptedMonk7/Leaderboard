@@ -194,16 +194,14 @@ a{
 /* mobile */
 @media  only screen and (max-width:688px) {
     .players, .allarticle, .allarticle2 {
-        grid-template-columns: repeat(1,1fr);
-        
-         
+        grid-template-columns: repeat(1,1fr);     
     }
     
     .player, .article, .articleclass{
         flex-direction: column;
         align-items: center;
     }
-    .topplayers, .articleclass, .bottomsec{
+    .topplayers, .articleclass, .bottomsec, .navclass{
         width:100%;
         height: 100%;
     }
@@ -221,13 +219,29 @@ a{
     .courseinfo{
         padding-bottom: 10px;
     }
-    .ideapad, {
+    .ideapad {
         margin: 10px;
         
     }
      a{
         margin: 0;
     }
+    .topplayers{
+        padding-right: 0;
+        padding-left: 0;
+        margin: 0;
+    }
+    .bottomsec{
+        padding-right: 0;
+        padding-left: 0;  
+    }
+    .articledetails2, .courseinfo{
+        padding-left: 20px;
+    }
+    .duration{
+        margin-right: 20px;
+    }
+    
 
     
 }
